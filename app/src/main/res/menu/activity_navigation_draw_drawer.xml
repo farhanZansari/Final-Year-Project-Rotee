@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/menu_inbox" />
+        <item
+            android:id="@+id/nav_recent_post"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="@string/menu_post" />
+        <item
+            android:id="@+id/nav_purchase"
+            android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+            android:title="@string/menu_purchased" />
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/menu_sold" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_power_settings_new_black_24dp"
+            android:title="@string/menu_logout" />
+    </group>
+
+
+
+</menu>
